@@ -1,18 +1,18 @@
-require 'bundler/capistrano'  # Add Bundler integration
+#require 'bundler/capistrano'  # Add Bundler integration
 require 'capistrano/ext/multistage'
 
-load 'deploy/assets'  # only for rails 3.1 apps, this makes sure our assets are precompiled.
+#load 'deploy/assets'  # only for rails 3.1 apps, this makes sure our assets are precompiled.
 set :shared_children, shared_children + %w{public/system}
 
-set :application, "<AppName>"
+set :application, "unicorn_nginx"
 set :stages, %w(staging production)
-set :default_stage, 'staging'
+set :default_stage, 'production'
 
 set :keep_releases, 1
 
 set :scm, 'git'
 
-set :repository,  '<project-git>'
+set :repository,  'git@github.com:KolomoetsOleg/unicorn_nginx.git'
 set :rvm_type, :system
 
 set :deploy_via, :remote_cache
@@ -20,7 +20,7 @@ set :use_sudo, false
 default_run_options[:pty] = true  # Forgo errors when deploying from windows
 set :ssh_options, { :forward_agent => true }
 after 'deploy', 'deploy:cleanup'
-after 'deploy:cleanup', 'deploy:restart_apache'
+after 'deploy:cleanup'
 
 
 namespace :deploy do
