@@ -1,44 +1,41 @@
 #require 'bundler/capistrano'  # Add Bundler integration
 require 'capistrano/ext/multistage'
-
-#load 'deploy/assets'  # only for rails 3.1 apps, this makes sure our assets are precompiled.
-set :shared_children, shared_children + %w{public/system}
+require 'rvm/capistrano' # This is for working with capistrano
 
 set :application, "unicorn_nginx"
+set :rails_env, "production"
 set :stages, %w(staging production)
 set :default_stage, 'production'
 
-set :keep_releases, 1
-
-set :scm, 'git'
-
-set :repository,  'git@github.com:KolomoetsOleg/unicorn_nginx.git'
-set :rvm_type, :system
-
-set :deploy_via, :remote_cache
 set :use_sudo, false
-default_run_options[:pty] = true  # Forgo errors when deploying from windows
-set :ssh_options, { :forward_agent => true }
-after 'deploy', 'deploy:cleanup'
-after 'deploy:cleanup'
+set :unicorn_conf, "#{deploy_to}/current/config/unicorn.rb"
+set :unicorn_pid, "#{deploy_to}/shared/pids/unicorn.pid"
 
+set :rvm_ruby_string, 'ree'
 
-namespace :deploy do
-  desc "reload the database with seed data"
-  task :seed do
-    run "cd #{current_path}; bundle exec rake db:seed RAILS_ENV=#{rails_env}"
-  end
-end
-namespace :deploy do
-  desc "Restart apache"
-  task :restart_apache do
-    run "cd #{current_path}; rm log/production.log;sudo service apache2 restart"
-  end
-end
+set :scm, :git
+set :repository, "git@github.com:KolomoetsOleg/unicorn_nginx.git"
+set :branch, "master"
+set :deploy_via, :remote_cache
+
+before 'deploy:setup', 'rvm:install_rvm', 'rvm:install_ruby'
+
+after 'deply:update_code', :roles => :app do
+  run "rm -f #{current_release}/config/database.yml"
+  run "ln -s #{deploy_to}/shared/config/database.yml #{current_release}/config/database.yml"
+end  
 
 namespace :deploy do
-  desc "Print log tail"
-  task :logs do
-    run "cd #{current_path}; cat log/production.log"
+  task :restart do
+    run "if [ -f #{unicorn_pid} ] && [ -e /proc/$(cat #{unicorn_pid}) ]; then kill -USR2 'cat #{unicorn_pid}';
+     else cd #{deploy_to}/current && bundle exec unicorn -c #{unicorn_conf} -E #{rails_env} -D; fi]"
+  end  
+
+  task :start do 
+    run "bundle exec unicorn -c #{unicorn_conf} -E #{rails_env} -D"
   end
-end
+
+  task :stop do
+    run "if [ -f #{unicorn_pid}] && [ -e /proc/$(cat #{unicorn_pid}) ]; then kill -QUIT 'cat #{unicorn_pid}'; fi"
+  end
+end  
