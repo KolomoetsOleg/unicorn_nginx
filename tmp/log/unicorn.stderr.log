@@ -1,0 +1,266 @@
+I, [2013-12-04T16:55:29.486614 #2666]  INFO -- : Refreshing Gem list
+I, [2013-12-04T16:55:31.022966 #2666]  INFO -- : listening on addr=0.0.0.0:8080 fd=11
+I, [2013-12-04T16:55:31.023126 #2666]  INFO -- : worker=0 spawning...
+I, [2013-12-04T16:55:31.024363 #2666]  INFO -- : master process ready
+I, [2013-12-04T16:55:31.025536 #2667]  INFO -- : worker=0 spawned pid=2667
+I, [2013-12-04T16:55:31.028877 #2667]  INFO -- : worker=0 ready
+I, [2013-12-04T16:57:34.771446 #2678]  INFO -- : Refreshing Gem list
+I, [2013-12-04T16:57:36.319774 #2678]  INFO -- : listening on addr=0.0.0.0:8080 fd=11
+I, [2013-12-04T16:57:36.319910 #2678]  INFO -- : worker=0 spawning...
+I, [2013-12-04T16:57:36.321526 #2678]  INFO -- : master process ready
+I, [2013-12-04T16:57:36.322692 #2679]  INFO -- : worker=0 spawned pid=2679
+I, [2013-12-04T16:57:36.325899 #2679]  INFO -- : worker=0 ready
+I, [2013-12-04T17:25:49.410478 #2761]  INFO -- : Refreshing Gem list
+F, [2013-12-04T17:25:51.338867 #2761] FATAL -- : error adding listener addr=0.0.0.0:80
+/Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/socket_helper.rb:185:in `bind': Permission denied - bind(2) (Errno::EACCES)
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/socket_helper.rb:185:in `new_tcp_server'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/socket_helper.rb:165:in `bind_listen'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:255:in `listen'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:801:in `block in bind_new_listeners!'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:801:in `each'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:801:in `bind_new_listeners!'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:146:in `start'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/bin/unicorn_rails:23:in `load'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/bin/unicorn_rails:23:in `<main>'
+I, [2013-12-04T17:26:03.189665 #2769]  INFO -- : Refreshing Gem list
+F, [2013-12-04T17:26:04.714352 #2769] FATAL -- : error adding listener addr=0.0.0.0:80
+/Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/socket_helper.rb:185:in `bind': Permission denied - bind(2) (Errno::EACCES)
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/socket_helper.rb:185:in `new_tcp_server'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/socket_helper.rb:165:in `bind_listen'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:255:in `listen'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:801:in `block in bind_new_listeners!'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:801:in `each'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:801:in `bind_new_listeners!'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:146:in `start'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/bin/unicorn_rails:209:in `<top (required)>'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/bin/unicorn_rails:23:in `load'
+	from /Users/oleg/.rvm/gems/ruby-2.0.0-p247/bin/unicorn_rails:23:in `<main>'
+I, [2013-12-04T17:26:22.181057 #2772]  INFO -- : Refreshing Gem list
+I, [2013-12-04T17:26:23.706659 #2772]  INFO -- : listening on addr=0.0.0.0:8080 fd=11
+I, [2013-12-04T17:26:23.706794 #2772]  INFO -- : worker=0 spawning...
+I, [2013-12-04T17:26:23.707809 #2772]  INFO -- : master process ready
+I, [2013-12-04T17:26:23.708919 #2773]  INFO -- : worker=0 spawned pid=2773
+I, [2013-12-04T17:26:23.711738 #2773]  INFO -- : worker=0 ready
+Exception `Errno::ESRCH' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:713 - No such process
+I, [2013-12-05T09:23:10.358235 #3957]  INFO -- : Refreshing Gem list
+Exception `LoadError' at /Users/oleg/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:51 - cannot load such file -- bundler/setup
+Using Ext extension for JSON.
+Exception `NameError' at /Users/oleg/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych/core_ext.rb:16 - method `to_yaml' not defined in Object
+Exception `NameError' at /Users/oleg/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych/core_ext.rb:29 - method `yaml_as' not defined in Module
+Exception `NameError' at /Users/oleg/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych/deprecated.rb:80 - undefined method `to_yaml_properties' for class `Object'
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/sqlite3-1.3.8/lib/sqlite3.rb:4 - cannot load such file -- sqlite3/2.0/sqlite3_native
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/execjs-2.0.2/lib/execjs/ruby_racer_runtime.rb:99 - cannot load such file -- v8
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/execjs-2.0.2/lib/execjs/ruby_rhino_runtime.rb:83 - cannot load such file -- rhino
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- 2.0/bcrypt_ext
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- 2.0/bcrypt_ext
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/confirmations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/confirmations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/confirmations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/confirmations_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/confirmations_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/omniauth_callbacks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/omniauth_callbacks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/omniauth_callbacks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/omniauth_callbacks_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/omniauth_callbacks_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/passwords_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/passwords_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/passwords_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/passwords_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/passwords_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/registrations_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/registrations_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/sessions_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/sessions_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/sessions_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/sessions_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/sessions_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/unlocks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/unlocks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/unlocks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/unlocks_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/unlocks_helper.rb
+Type application/vnd.ms-fontobject already registered as a variant of application/vnd.ms-fontobject.
+Type application/vnd.ms-word.document.macroEnabled.12 already registered as a variant of application/vnd.ms-word.document.macroenabled.12.
+Type application/vnd.ms-word.template.macroEnabled.12 already registered as a variant of application/vnd.ms-word.template.macroenabled.12.
+Type multipart/x-parallel already registered as a variant of multipart/parallel.
+Type text/plain already registered as a variant of text/plain.
+Type video/vnd.dlna.mpeg-tts already registered as a variant of video/vnd.dlna.mpeg-tts.
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/mailer_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/mailer_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/mailer_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/mailer_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/mailer_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- registrations_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/registrations_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- users_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- users_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- users_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- users_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/users_helper.rb
+I, [2013-12-05T09:23:13.703274 #3957]  INFO -- : listening on addr=0.0.0.0:8080 fd=10
+I, [2013-12-05T09:23:13.703347 #3957]  INFO -- : worker=0 spawning...
+I, [2013-12-05T09:23:13.705087 #3957]  INFO -- : master process ready
+I, [2013-12-05T09:23:13.706088 #3959]  INFO -- : worker=0 spawned pid=3959
+I, [2013-12-05T09:23:13.709689 #3959]  INFO -- : worker=0 ready
+I, [2013-12-05T09:23:16.384238 #3957]  INFO -- : reaped #<Process::Status: pid 3959 exit 0> worker=0
+Exception `Errno::ECHILD' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:408 - No child processes
+I, [2013-12-05T09:23:16.384370 #3957]  INFO -- : master complete
+Exception `Errno::ENOENT' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:711 - No such file or directory - /Users/oleg/Documents/unicorn_nginx/tmp/pids/unicorn.pid
+I, [2013-12-05T09:23:40.815579 #3962]  INFO -- : Refreshing Gem list
+Exception `LoadError' at /Users/oleg/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:51 - cannot load such file -- bundler/setup
+Using Ext extension for JSON.
+Exception `NameError' at /Users/oleg/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych/core_ext.rb:16 - method `to_yaml' not defined in Object
+Exception `NameError' at /Users/oleg/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych/core_ext.rb:29 - method `yaml_as' not defined in Module
+Exception `NameError' at /Users/oleg/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych/deprecated.rb:80 - undefined method `to_yaml_properties' for class `Object'
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/sqlite3-1.3.8/lib/sqlite3.rb:4 - cannot load such file -- sqlite3/2.0/sqlite3_native
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/execjs-2.0.2/lib/execjs/ruby_racer_runtime.rb:99 - cannot load such file -- v8
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/execjs-2.0.2/lib/execjs/ruby_rhino_runtime.rb:83 - cannot load such file -- rhino
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- 2.0/bcrypt_ext
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- 2.0/bcrypt_ext
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/confirmations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/confirmations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/confirmations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/confirmations_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/confirmations_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/omniauth_callbacks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/omniauth_callbacks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/omniauth_callbacks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/omniauth_callbacks_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/omniauth_callbacks_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/passwords_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/passwords_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/passwords_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/passwords_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/passwords_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/registrations_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/registrations_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/sessions_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/sessions_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/sessions_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/sessions_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/sessions_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/unlocks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/unlocks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/unlocks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/unlocks_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/unlocks_helper.rb
+Type application/vnd.ms-fontobject already registered as a variant of application/vnd.ms-fontobject.
+Type application/vnd.ms-word.document.macroEnabled.12 already registered as a variant of application/vnd.ms-word.document.macroenabled.12.
+Type application/vnd.ms-word.template.macroEnabled.12 already registered as a variant of application/vnd.ms-word.template.macroenabled.12.
+Type multipart/x-parallel already registered as a variant of multipart/parallel.
+Type text/plain already registered as a variant of text/plain.
+Type video/vnd.dlna.mpeg-tts already registered as a variant of video/vnd.dlna.mpeg-tts.
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/mailer_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/mailer_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/mailer_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/mailer_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/mailer_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- registrations_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/registrations_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- users_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- users_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- users_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- users_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/users_helper.rb
+I, [2013-12-05T09:23:42.575528 #3962]  INFO -- : listening on addr=0.0.0.0:8080 fd=10
+I, [2013-12-05T09:23:42.575606 #3962]  INFO -- : worker=0 spawning...
+I, [2013-12-05T09:23:42.577049 #3962]  INFO -- : master process ready
+I, [2013-12-05T09:23:42.578172 #3963]  INFO -- : worker=0 spawned pid=3963
+I, [2013-12-05T09:23:42.580981 #3963]  INFO -- : worker=0 ready
+I, [2013-12-05T09:23:45.184461 #3962]  INFO -- : reaped #<Process::Status: pid 3963 exit 0> worker=0
+Exception `Errno::ECHILD' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:408 - No child processes
+I, [2013-12-05T09:23:45.185254 #3962]  INFO -- : master complete
+Exception `Errno::ENOENT' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/unicorn-4.7.0/lib/unicorn/http_server.rb:711 - No such file or directory - /Users/oleg/Documents/unicorn_nginx/tmp/pids/unicorn.pid
+I, [2013-12-05T09:24:29.076255 #3965]  INFO -- : Refreshing Gem list
+Exception `LoadError' at /Users/oleg/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/core_ext/kernel_require.rb:51 - cannot load such file -- bundler/setup
+Using Ext extension for JSON.
+Exception `NameError' at /Users/oleg/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych/core_ext.rb:16 - method `to_yaml' not defined in Object
+Exception `NameError' at /Users/oleg/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych/core_ext.rb:29 - method `yaml_as' not defined in Module
+Exception `NameError' at /Users/oleg/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych/deprecated.rb:80 - undefined method `to_yaml_properties' for class `Object'
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/sqlite3-1.3.8/lib/sqlite3.rb:4 - cannot load such file -- sqlite3/2.0/sqlite3_native
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/execjs-2.0.2/lib/execjs/ruby_racer_runtime.rb:99 - cannot load such file -- v8
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/execjs-2.0.2/lib/execjs/ruby_rhino_runtime.rb:83 - cannot load such file -- rhino
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- 2.0/bcrypt_ext
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- 2.0/bcrypt_ext
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/confirmations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/confirmations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/confirmations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/confirmations_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/confirmations_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/omniauth_callbacks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/omniauth_callbacks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/omniauth_callbacks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/omniauth_callbacks_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/omniauth_callbacks_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/passwords_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/passwords_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/passwords_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/passwords_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/passwords_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/registrations_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/registrations_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/sessions_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/sessions_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/sessions_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/sessions_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/sessions_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/unlocks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/unlocks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/unlocks_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/unlocks_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/unlocks_helper.rb
+Type application/vnd.ms-fontobject already registered as a variant of application/vnd.ms-fontobject.
+Type application/vnd.ms-word.document.macroEnabled.12 already registered as a variant of application/vnd.ms-word.document.macroenabled.12.
+Type application/vnd.ms-word.template.macroEnabled.12 already registered as a variant of application/vnd.ms-word.template.macroenabled.12.
+Type multipart/x-parallel already registered as a variant of multipart/parallel.
+Type text/plain already registered as a variant of text/plain.
+Type video/vnd.dlna.mpeg-tts already registered as a variant of video/vnd.dlna.mpeg-tts.
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- devise/mailer_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- devise/mailer_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- devise/mailer_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- devise/mailer_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/devise/mailer_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- registrations_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- registrations_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/registrations_helper.rb
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:229 - cannot load such file -- users_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:218 - cannot load such file -- users_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:334 - cannot load such file -- users_helper
+Exception `LoadError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/dependencies.rb:295 - No such file to load -- users_helper
+Exception `AbstractController::Helpers::ClassMethods::MissingHelperError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/helpers.rb:137 - Missing helper file helpers/users_helper.rb
+I, [2013-12-05T09:24:30.825270 #3965]  INFO -- : listening on addr=0.0.0.0:8080 fd=10
+I, [2013-12-05T09:24:30.825341 #3965]  INFO -- : worker=0 spawning...
+I, [2013-12-05T09:24:30.826565 #3965]  INFO -- : master process ready
+I, [2013-12-05T09:24:30.827650 #3966]  INFO -- : worker=0 spawned pid=3966
+I, [2013-12-05T09:24:30.830419 #3966]  INFO -- : worker=0 ready
+Exception `ActionController::RoutingError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:21 - No route matches [GET] "/stylesheets/application.css"
+Exception `ActionController::RoutingError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:52 - No route matches [GET] "/stylesheets/application.css"
+Exception `ActionController::RoutingError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:21 - No route matches [GET] "/javascripts/application.js"
+Exception `ActionController::RoutingError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:52 - No route matches [GET] "/javascripts/application.js"
+Exception `ActionController::RoutingError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:21 - No route matches [GET] "/favicon.ico"
+Exception `ActionController::RoutingError' at /Users/oleg/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:52 - No route matches [GET] "/favicon.ico"
+I, [2013-12-05T09:27:37.340460 #3985]  INFO -- : Refreshing Gem list
+I, [2013-12-05T09:27:38.863895 #3985]  INFO -- : listening on addr=0.0.0.0:8080 fd=11
+I, [2013-12-05T09:27:38.864035 #3985]  INFO -- : worker=0 spawning...
+I, [2013-12-05T09:27:38.865657 #3985]  INFO -- : master process ready
+I, [2013-12-05T09:27:38.866744 #3986]  INFO -- : worker=0 spawned pid=3986
+I, [2013-12-05T09:27:38.869848 #3986]  INFO -- : worker=0 ready
