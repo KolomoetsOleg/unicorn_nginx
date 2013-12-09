@@ -1,4 +1,3 @@
-#require 'bundler/capistrano'  # Add Bundler integration
 require 'capistrano/ext/multistage'
 require 'rvm/capistrano' # This is for working with capistrano
 
@@ -8,8 +7,7 @@ set :rails_env, "production"
 set :stages, %w(staging production)
 set :default_stage, 'production'
 set :deploy_to, "/var/www/#{application}"
-
-
+set :user_rails, "ubuntu"
 
 set :keep_releases, 2
 
@@ -29,6 +27,10 @@ require "bundler/capistrano"
 set :bundle_flags, ''
 set :bundle_without, %w{development test}.join(' ')
 
+set :unicorn_config, "#{current_path}/config/unicorn.rb"
+set :unicorn_pid, "#{current_path}/tmp/pids/unicorn.pid"
+set :unicorn_binary, "bash -c 'source /etc/profile.d/rvm.sh && unicorn_rails -c #{unicorn_config} -E #{rails_env} -D'"
+set :su_rails, "sudo -u #{user_rails}"
 
 after 'deploy', 'deploy:create_sock'
 
@@ -44,14 +46,34 @@ namespace 'deploy' do
   end
 end
 
-
-# before 'deploy:setup', 'rvm:install_rvm', 'rvm:install_ruby'
 require 'capistrano-unicorn'
 before 'deploy', 'unicorn:stop'
 after 'deploy', 'unicorn:start'
 
 namespace 'unicorn' do
+
+  task :start, :except => { :no_release => true } do
+    # Start unicorn server using sudo (rails)
+    run "cd #{current_path} && #{su_rails} #{unicorn_binary}"
+  end
+
+  task :stop, :except => { :no_release => true } do
+    run "if [ -f #{unicorn_pid} ]; then #{su_rails} kill `cat #{unicorn_pid}`; fi"
+  end
+  task :restart, :except => { :no_release => true } do
+    stop
+    start
+  end
+end
+
+namespace 'nginx' do
   task 'stop' do
-    run "cd #{current_path}; ps aux | grep 'unicorn' | awk '{print $2}' | xargs kill -9 ;"
+    run "cd #{current_path}; sudo /etc/init.d/nginx stop"
+  end
+  task 'start' do
+    run "cd #{current_path}; sudo /etc/init.d/nginx start;"
+  end
+  task 'restart' do
+    run "cd #{current_path}; sudo /etc/init.d/nginx restart"
   end
 end
