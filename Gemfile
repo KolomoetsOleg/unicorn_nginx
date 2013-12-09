@@ -14,7 +14,7 @@ group :development do
   gem 'capistrano-ext'
   gem 'rails_layout'
   gem 'rvm-capistrano'
-  gem 'capistrano-unicorn', require: false
+  gem 'capistrano-unicorn'
 end
 group :production do
   gem 'unicorn'
