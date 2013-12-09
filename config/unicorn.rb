@@ -1,4 +1,4 @@
-rails_root = "/Users/oleg/Documents/unicorn_nginx"#{deploy_to}/current" 
+rails_root = "/var/www/unicorn_nginx/current"#{deploy_to}/current" 
 
 working_directory rails_root
 
