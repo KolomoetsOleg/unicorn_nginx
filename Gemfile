@@ -14,6 +14,7 @@ group :development do
   gem 'capistrano-ext'
   gem 'rails_layout'
   gem 'rvm-capistrano'
+  gem 'capistrano-bundler'
   gem 'capistrano-unicorn', :require => false
 end
 group :production do

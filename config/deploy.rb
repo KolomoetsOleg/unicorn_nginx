@@ -1,13 +1,16 @@
 #require 'bundler/capistrano'  # Add Bundler integration
 require 'capistrano/ext/multistage'
 require 'rvm/capistrano' # This is for working with capistrano
-# require "bundler/capistrano"
+require 'capistrano/bundler'
 
 set :application, "unicorn_nginx"
 set :rails_env, "production"
 set :stages, %w(staging production)
 set :default_stage, 'production'
 set :deploy_to, "/var/www/#{application}"
+
+set :bundle_flags, ''
+set :bundle_without, %w{development test}.join(' ')
 
 set :keep_releases, 2
 
@@ -26,3 +29,5 @@ set :deploy_via, :remote_cache
 require 'capistrano-unicorn'
 before 'deploy', 'unicorn:stop'
 after 'deploy', 'unicorn:start'
+
+name
